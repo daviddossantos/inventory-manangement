@@ -1,0 +1,42 @@
+[
+  {
+    "product_name": "Refrigerante",
+    "description": "Regrigerante 2l",
+    "amount": "20",
+    "ean": "124",
+    "purchase_price": "2.51",
+    "sale_price": "5,50",
+    "selected_amount": 0,
+    "url": "https://www.drogariaminasbrasil.com.br/media/product/619/refrigerante-coca-cola-pet-2l-927.jpg"
+  },
+  {
+    "product_name": "Hambuguer",
+    "description": "Regrigerante 2l",
+    "amount": "20",
+    "ean": "124",
+    "purchase_price": "2.51",
+    "sale_price": "5,50",
+    "selected_amount": 0,
+    "url": "https://s2.glbimg.com/-skQXghwNBeLCuYy742th0fMiZQ=/e.glbimg.com/og/ed/f/original/2019/12/10/marfrig.jpg"
+  },
+  {
+    "product_name": "Refrigerante",
+    "description": "Regrigerante 2l",
+    "amount": "20",
+    "ean": "124",
+    "purchase_price": "2.51",
+    "sale_price": "5,50",
+    "selected_amount": 0,
+    "url": "https://www.drogariaminasbrasil.com.br/media/product/619/refrigerante-coca-cola-pet-2l-927.jpg"
+  },
+  {
+    "product_name": "Hambuguer",
+    "description": "Regrigerante 2l",
+    "amount": "20",
+    "ean": "124",
+    "purchase_price": "2.51",
+    "sale_price": "5,50",
+    "selected_amount": 0,
+    "url": "https://s2.glbimg.com/-skQXghwNBeLCuYy742th0fMiZQ=/e.glbimg.com/og/ed/f/original/2019/12/10/marfrig.jpg"
+  }
+]

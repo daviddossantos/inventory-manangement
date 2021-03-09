@@ -1,21 +1,20 @@
+import { FuegoProvider } from '@nandorojo/swr-firestore';
 import { StatusBar } from 'expo-status-bar';
+import 'firebase/auth';
+import 'firebase/firestore';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import 'react-native-gesture-handler';
+import { RecoilRoot } from 'recoil';
+import Routes from './src/routes';
+import { fuego } from './src/config/Fuego';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <FuegoProvider fuego={fuego}>
+      <RecoilRoot>
+        <Routes />
+        <StatusBar style="dark" translucent={false} backgroundColor="white" />
+      </RecoilRoot>
+    </FuegoProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

@@ -1,0 +1,6 @@
+import styled from 'styled-components/native';
+
+export const Text = styled.Text`
+  font-weight: bold;
+  color: #8e99af;
+`;
